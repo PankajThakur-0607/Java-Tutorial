@@ -1,5 +1,7 @@
 package Recursion;
 
+import java.util.ArrayList;
+
 public class _07_recurison {
 
     public static boolean isSorted_V1(int arr[], int start, int end) {
@@ -23,7 +25,7 @@ public class _07_recurison {
         return arr[index] < arr[index + 1] && isSorted_V2(arr, index + 1);
     }
 
-    public static boolean linearSearch(int arr[], int index, int target) {
+    public static boolean linearSearch_V1(int arr[], int index, int target) {
 
         if (index == arr.length) {
             return false;
@@ -33,15 +35,53 @@ public class _07_recurison {
             return true;
         }
 
-        return linearSearch(arr, index + 1, target);
+        return linearSearch_V1(arr, index + 1, target);
+    }
+
+    public static boolean linearSearch_V2(int arr[], int index, int target) {
+        if (index < 0) {
+            return false;
+        }
+
+        if (arr[index] == target) {
+            return true;
+        }
+
+        return linearSearch_V2(arr, index - 1, target);
+    }
+
+    public static int linearSearch_V3(int arr[], int index, int target) {
+        if (index == arr.length) {
+            return -1;
+        }
+        if (arr[index] == target) {
+            return index;
+        }
+        return linearSearch_V3(arr, index + 1, target);
+    }
+
+    public static ArrayList<Integer> linearSearch_V4_AllIndexes(int arr[], int index, int target,
+            ArrayList<Integer> ans) {
+        if (index == arr.length) {
+            return ans;
+        }
+
+        if (arr[index] == target) {
+            ans.add(index);
+        }
+
+        return linearSearch_V4_AllIndexes(arr, index + 1, target, ans);
     }
 
     public static void main(String[] args) {
-        int arr[] = { 1, 2, 4, 5, 8, 9 };
+        int arr[] = { 2, 3, 4, 3, 5, 7 };
         System.out.println("Array is Sorted : " + isSorted_V1(arr, 0, arr.length - 1));
         System.out.println("Array is Sorted : " + isSorted_V2(arr, 0));
 
-        System.out.println("Array Found : " + linearSearch(arr, 0, 9));
-        
+        System.out.println("Array Found : " + linearSearch_V1(arr, 0, 9));
+        System.out.println("Array Found : " + linearSearch_V2(arr, arr.length - 1, 9));
+        System.out.println("Array Found : " + linearSearch_V3(arr, 0, 9));
+        System.out.println("Array Found : " + linearSearch_V4_AllIndexes(arr, 0, 3, new ArrayList<>()));
+
     }
 }
