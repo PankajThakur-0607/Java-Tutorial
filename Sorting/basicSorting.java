@@ -1,8 +1,5 @@
 package Sorting;
 
-import java.util.Arrays;
-import java.util.Collections;
-
 public class basicSorting {
 
     public static void printArray(int arr[]) {
@@ -47,7 +44,7 @@ public class basicSorting {
             int swap = 0;
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[minPos] > arr[j]) {
-                    minPos = j; 
+                    minPos = j;
                 }
             }
             // swap

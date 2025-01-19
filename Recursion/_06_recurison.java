@@ -1,5 +1,3 @@
-package Recursion;
-
 public class _06_recurison {
 
     static int countZero = 0;

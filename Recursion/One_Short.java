@@ -1,4 +1,4 @@
-package Recursion;
+
  import java.util.Random;
 class One_Short {
 

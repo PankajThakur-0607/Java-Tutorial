@@ -1,4 +1,3 @@
-package Recursion;
 
 public class Recursionbasics {
 
@@ -58,7 +57,6 @@ public class Recursionbasics {
       if (arr[i] > arr[i + 1]) {
          return false;
       }
-      isSorted(arr, i + 1);
       return isSorted(arr, i + 1);
    }
 
