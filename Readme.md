@@ -4,7 +4,7 @@
 
 ### **Topics Covered**
 
-#### **_(DSA) Tutorial!_** This repository is designed to help you learn and implement fundamental DSA concepts in Java, with clear examples and explanations.
+#### <mark>**_(DSA) Tutorial!_**</mark> This repository is designed to help you learn and implement fundamental DSA concepts in Java, with clear examples and explanations.
 
 ### Topics Covered
 
@@ -57,40 +57,44 @@ Mastering DSA will help you:
 > - Build scalable and optimized applications.
 > - Crack coding interviews at top tech companies.
 
-> ## 2. Learning Path
-> 
-> Follow this sequence for the best learning experience:
-> 
-> 1. **Arrays and Strings**  
->    - Basics  
->    - Traversal  
->    - Searching  
->    - Sorting  
-> 
-> 2. **Linked Lists**  
->    - Single Linked Lists  
->    - Doubly Linked Lists  
->    - Circular Linked Lists  
-> 
-> 3. **Stacks and Queues**  
->    - LIFO (Last In, First Out) Implementation  
->    - FIFO (First In, First Out) Implementation  
-> 
-> 4. **Trees and Graphs**  
->    - Binary Trees  
->    - Binary Search Trees (BSTs)  
->    - Depth First Search (DFS)  
->    - Breadth First Search (BFS)  
-> 
-> 5. **Sorting and Searching Algorithms**  
->    - Merge Sort  
->    - Quick Sort  
->    - Binary Search  
-> 
-> 6. **Recursion & Backtracking** 
->    - N-Queens Problem  
->    - Sudoku Solver  
+## 2. Learning Path
 
+> Follow this sequence for the best learning experience:
+>
+> 1. **Arrays and Strings**
+>
+>    - Basics
+>    - Traversal
+>    - Searching
+>    - Sorting
+>
+> 2. **Linked Lists**
+>
+>    - Single Linked Lists
+>    - Doubly Linked Lists
+>    - Circular Linked Lists
+>
+> 3. **Stacks and Queues**
+>
+>    - LIFO (Last In, First Out) Implementation
+>    - FIFO (First In, First Out) Implementation
+>
+> 4. **Trees and Graphs**
+>
+>    - Binary Trees
+>    - Binary Search Trees (BSTs)
+>    - Depth First Search (DFS)
+>    - Breadth First Search (BFS)
+>
+> 5. **Sorting and Searching Algorithms**
+>
+>    - Merge Sort
+>    - Quick Sort
+>    - Binary Search
+>
+> 6. **Recursion & Backtracking**
+>    - N-Queens Problem
+>    - Sudoku Solver
 
 ## 3. Practice Problems
 
