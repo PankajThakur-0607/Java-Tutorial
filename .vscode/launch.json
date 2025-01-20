@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SumTriangleRecursion",
+      "request": "launch",
+      "mainClass": "EasyLevelProblems.SumTriangleRecursion",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "sumTriangle",
+      "request": "launch",
+      "mainClass": "EasyLevelProblems.sumTriangle",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "SumTriangleArray",
+      "request": "launch",
+      "mainClass": "EasyLevelProblems.SumTriangleArray",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "_04_recursion",
       "request": "launch",
       "mainClass": "_04_recursion",
