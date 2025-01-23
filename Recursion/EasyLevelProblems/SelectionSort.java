@@ -2,8 +2,6 @@ package EasyLevelProblems;
 
 import java.util.Arrays;
 
-import LOOPS.star;
-
 public class SelectionSort {
 
     public static void selectionSort(int arr[]) {
@@ -75,7 +73,7 @@ public class SelectionSort {
         System.out.println(Arrays.toString(arr));
         // selectionSort(arr);
 
-        // RecursiveSelectionSort.selectionSort_rec_V1(arr, arr.length, 0, 0);
+        RecursiveSelectionSort.selectionSort_rec_V1(arr, arr.length, 0, 0);
         RecursiveSelectionSort.selectionSort_rec_V2(arr, arr.length, 0);
         System.out.println(Arrays.toString(arr));
 

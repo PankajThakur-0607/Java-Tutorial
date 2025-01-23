@@ -73,7 +73,7 @@ public class basicSorting {
 
         }
     }
-
+        
     public static void countingSort(int arr[]) {
         int largest = Integer.MIN_VALUE;
         for (int i = 0; i < arr.length; i++) {
@@ -101,18 +101,9 @@ public class basicSorting {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 1, 4, 1, 1, 3, 2, 6, 4, 3, 7 };
-        // insertionSort(arr);
-
-        // Arrays.sort(arr , 0 , 3);
-
-        // printArray(arr);
-
-        // Arrays.sort(arr , Collections.reverseOrder());
-        // printArray(arr);
-
+        int arr[] = { 1, 4, 1, 1, 3, 2, 6, 4, 3, 7 };  
         countingSort(arr);
         printArray(arr);
-
     }
+
 }
