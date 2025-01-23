@@ -6,6 +6,76 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SelectionSort",
+      "request": "launch",
+      "mainClass": "EasyLevelProblems.SelectionSort",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "InsertionSort",
+      "request": "launch",
+      "mainClass": "EasyLevelProblems.InsertionSort",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "BubbleSortRec",
+      "request": "launch",
+      "mainClass": "EasyLevelProblems.BubbleSortRec",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "GeekoNacci",
+      "request": "launch",
+      "mainClass": "EasyLevelProblems.GeekoNacci",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Length_Of_StringRec",
+      "request": "launch",
+      "mainClass": "EasyLevelProblems.Length_Of_StringRec",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "ReverseString",
+      "request": "launch",
+      "mainClass": "EasyLevelProblems.ReverseString",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "_05_recurison",
+      "request": "launch",
+      "mainClass": "_05_recurison",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "FirstUpperCase",
+      "request": "launch",
+      "mainClass": "EasyLevelProblems.FirstUpperCase",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "BinarySearch",
+      "request": "launch",
+      "mainClass": "EasyLevelProblems.BinarySearch",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "MinMaxElement_In_Array",
+      "request": "launch",
+      "mainClass": "EasyLevelProblems.MinMaxElement_In_Array",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "SumTriangleRecursion",
       "request": "launch",
       "mainClass": "EasyLevelProblems.SumTriangleRecursion",

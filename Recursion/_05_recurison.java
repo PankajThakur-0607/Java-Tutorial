@@ -1,4 +1,6 @@
 
+import java.lang.Math;
+
 public class _05_recurison {
 
     public static void main(String[] args) {
@@ -22,19 +24,18 @@ public class _05_recurison {
 
         // reverseNum_V1(1432);
         // System.out.println(sum);
-        // System.out.println(reverseNum_V2(1234));
+        System.out.println(reverseNum_V2(1234));
 
-        System.out.println(isPalindrome(1231));
+        // System.out.println(isPalindrome(1231));
     }
 
     public static boolean isPalindrome(int n) {
         return n == reverseNum_V2(n);
     }
 
-
     static int sum = 0;
-    public static void reverseNum_V1(int n) {
 
+    public static void reverseNum_V1(int n) {
         if (n <= 0) {
             return;
         }
@@ -46,7 +47,6 @@ public class _05_recurison {
     }
 
     public static int reverseNum_V2(int n) {
-
         int digits = (int) (Math.log10(n)) + 1;
         System.out.println(digits);
         return helper(n, digits);
