@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "checkPrimeNumber",
+      "request": "launch",
+      "mainClass": "EasyLevelProblems.checkPrimeNumber",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "productUsingRecursion",
+      "request": "launch",
+      "mainClass": "EasyLevelProblems.productUsingRecursion",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "SumOfDigitUsingRecursion",
+      "request": "launch",
+      "mainClass": "EasyLevelProblems.SumOfDigitUsingRecursion",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "SelectionSort",
       "request": "launch",
       "mainClass": "EasyLevelProblems.SelectionSort",
