@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PowerOfTwo",
+      "request": "launch",
+      "mainClass": "EasyLevelProblems.PowerOfTwo",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "SumOfNaturalNumbers",
+      "request": "launch",
+      "mainClass": "EasyLevelProblems.SumOfNaturalNumbers",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "checkPrimeNumber",
       "request": "launch",
       "mainClass": "EasyLevelProblems.checkPrimeNumber",
