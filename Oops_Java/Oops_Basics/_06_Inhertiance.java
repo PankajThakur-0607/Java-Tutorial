@@ -1,4 +1,4 @@
-package Oops_Java;
+package Oops_Basics;
 
 public class _06_Inhertiance {
     

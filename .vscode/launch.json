@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PowerOfThree",
+      "request": "launch",
+      "mainClass": "EasyLevelProblems.PowerOfThree",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "PowerOfTwo",
       "request": "launch",
       "mainClass": "EasyLevelProblems.PowerOfTwo",
