@@ -3,7 +3,7 @@ package Packages.hellowa;
 
 
 // this is a demo to show the initialiasation of static variables 
-public class staticBlock {
+public class _staticBlock {
 
     static int a = 4 ;
     static int b ;
@@ -16,14 +16,14 @@ public class staticBlock {
     }
 
     public static void main(String[] args) {
-        staticBlock obj = new staticBlock();
-        System.out.println(staticBlock.a + " " + staticBlock.b);
+        _staticBlock obj = new _staticBlock();
+        System.out.println(_staticBlock.a + " " + _staticBlock.b);
         
-        staticBlock.b += 3 ;
-        System.out.println(staticBlock.a + " " + staticBlock.b);
+        _staticBlock.b += 3 ;
+        System.out.println(_staticBlock.a + " " + _staticBlock.b);
 
-        staticBlock obj2 = new staticBlock();
-        System.out.println(staticBlock.a + " " + staticBlock.b);
+        _staticBlock obj2 = new _staticBlock();
+        System.out.println(_staticBlock.a + " " + _staticBlock.b);
 
         
     }

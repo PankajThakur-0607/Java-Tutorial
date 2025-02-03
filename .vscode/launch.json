@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "_staticBlock",
+      "request": "launch",
+      "mainClass": "Packages.hellowa._staticBlock",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "_07_Static",
+      "request": "launch",
+      "mainClass": "Oops_Basics._07_Static",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "_01_oops",
+      "request": "launch",
+      "mainClass": "Oops_Basics._01_oops",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "PowerOfThree",
       "request": "launch",
       "mainClass": "EasyLevelProblems.PowerOfThree",
