@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Subset_Duplicate",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.Subset_Duplicate",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Subset_Iterative",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.Subset_Iterative",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Subset_Ietrative",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.Subset_Ietrative",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "Subsequences",
       "request": "launch",
       "mainClass": "MediumLevelProblems.Subsequences",

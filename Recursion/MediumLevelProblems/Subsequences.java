@@ -43,12 +43,47 @@ public class Subsequences {
         return take;
     }
 
+    public static void subSeqAscii(String p, String up) {
+        if (up.isEmpty()) {
+            System.out.println(p);
+            return;
+        }
+        char ch = up.charAt(0);
+        
+        subSeqAscii(p + ch, up.substring(1));
+        subSeqAscii(p + (ch + 0), up.substring(1));
+        subSeqAscii(p, up.substring(1));
+
+    }
+
+    public static ArrayList<String> subSeqAsciiRet(String p, String up) {
+        if (up.isEmpty()) {
+            ArrayList<String> list = new ArrayList<>();
+            list.add(p);
+            return list;
+        }
+        char ch = up.charAt(0);
+        
+       ArrayList<String> first =  subSeqAsciiRet(p + ch, up.substring(1));
+       ArrayList<String> second =  subSeqAsciiRet(p + (ch + 0), up.substring(1));
+       ArrayList<String> third =  subSeqAsciiRet(p, up.substring(1));
+
+       first.addAll(second);
+       first.addAll(third);
+
+       return first;
+
+    }
+
     public static void main(String[] args) {
-        String str = "ab";
+        String str = "abc";
         // subSequence(str, 0, "");
 
         // subSequence_V2("", str);
 
-        System.out.println(subSequence_V3("", str));
+        // System.out.println(subSequence_V3("", str));
+        // subSeqAscii("", str);
+
+        System.out.println(subSeqAsciiRet("", str));
     }
 }
