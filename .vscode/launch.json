@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BoxWeight",
+      "request": "launch",
+      "mainClass": "Principles.Inheritance.BoxWeight",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "ObjectPrint",
+      "request": "launch",
+      "mainClass": "Principles.Polymorphism.ObjectPrint",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Numbers",
+      "request": "launch",
+      "mainClass": "Principles.Polymorphism.Numbers",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Principles.Polymorphism.Main",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Multiple_Inheritance",
+      "request": "launch",
+      "mainClass": "Principles.Inheritance.Multiple_Inheritance",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "SingleTon.Main",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "Subset_Duplicate",
       "request": "launch",
       "mainClass": "MediumLevelProblems.Subset_Duplicate",

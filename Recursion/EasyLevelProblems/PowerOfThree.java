@@ -1,6 +1,5 @@
 package EasyLevelProblems;
 
-import Packages.hellowa.staticBlock;
 
 public class PowerOfThree {
 

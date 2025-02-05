@@ -19,6 +19,21 @@ public class Singleton {
         return instance;
     }
 
+
+    static class Single {
+        private Single(){}
+
+        private static Single instance;
+
+        public static Single getInstace(){
+            if (instance == null) {
+                instance =  new Single();
+            }
+
+            return instance;
+        }
+    }
+
     public static void main(String[] args) {
         
     }
