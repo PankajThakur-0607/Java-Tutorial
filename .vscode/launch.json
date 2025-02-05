@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Subsequences",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.Subsequences",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Skip_A_Character",
+      "request": "launch",
+      "mainClass": "EasyLevelProblems.Skip_A_Character",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Box",
+      "request": "launch",
+      "mainClass": "Principles.Inheritance.Box",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Principles.Inheritance.Main",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "_staticBlock",
       "request": "launch",
       "mainClass": "Packages.hellowa._staticBlock",

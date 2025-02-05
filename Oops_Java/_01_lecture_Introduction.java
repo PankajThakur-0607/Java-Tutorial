@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class _01_lecture_Introduction {
 
