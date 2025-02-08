@@ -1,6 +1,6 @@
 
 // outer class cannot be static as it is not dependent on any other class
-import Principles.Access_Specifier.A;
+
 public class _02_InnerClasses {
 
     static class Test {
@@ -25,9 +25,5 @@ public class _02_InnerClasses {
 
         Test c = new Test("Monika");
         System.out.println(c);
-
-        A obj = new A(25, "pankaj");
-        obj.setNum(26);
-        System.out.println(obj.getNum());
     }
 }
