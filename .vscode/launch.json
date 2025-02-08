@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SubClass",
+      "request": "launch",
+      "mainClass": "Principles.Access_Specifier.SubClass",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "A",
+      "request": "launch",
+      "mainClass": "Principles.Access_Specifier.A",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "_02_InnerClasses",
+      "request": "launch",
+      "mainClass": "_02_InnerClasses",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Principles.Access_Specifier.Main",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "BoxWeight",
       "request": "launch",
       "mainClass": "Principles.Inheritance.BoxWeight",

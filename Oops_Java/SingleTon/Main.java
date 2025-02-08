@@ -1,5 +1,6 @@
 package SingleTon;
 
+import Principles.Access_Specifier.A;
 import SingleTon.Singleton.Single;
 
 public class Main {
@@ -21,7 +22,9 @@ public class Main {
         Single obj6 = Single.getInstace();
         System.out.println(obj4);
         System.out.println(obj5);
-        System.out.println(obj6);    
+        System.out.println(obj6); 
+        
+        A obj2 = new A(0, null)
 
     }
 }
