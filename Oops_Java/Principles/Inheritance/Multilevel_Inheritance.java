@@ -1,20 +1,20 @@
 package Principles.Inheritance;
 
-class Multiple_Inheritance {
+class Multilevel_Inheritance {
 
     int legs;
 
-    Multiple_Inheritance() {
+    Multilevel_Inheritance() {
         System.out.println(" Default ineritance constructor called");
         legs = -1;
     }
 
-    Multiple_Inheritance(int legs) {
-        System.out.println("Multiple_Inheritance constructor called ");
+    Multilevel_Inheritance(int legs) {
+        System.out.println("Multilevel_Inheritance constructor called ");
         this.legs = legs;
     }
 
-    public static class Animal extends Multiple_Inheritance {
+    public static class Animal extends Multilevel_Inheritance {
         String type;
         String eats;
 

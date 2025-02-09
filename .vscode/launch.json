@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "B",
+      "request": "launch",
+      "mainClass": "Principles.Interfaces.ExtendedInterface.B",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Principles.Interfaces.Main",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Brake",
+      "request": "launch",
+      "mainClass": "Principles.Interfaces.Brake",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Engine",
+      "request": "launch",
+      "mainClass": "Principles.Interfaces.Engine",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Principles.Abstract_Demo.Main",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "ObjectDemo",
       "request": "launch",
       "mainClass": "Principles.Access_Specifier.ObjectDemo",

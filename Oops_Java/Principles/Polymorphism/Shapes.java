@@ -7,7 +7,7 @@ public class Shapes {
         System.out.println("I am in shapes");
     }
 
-    // final void area(){ // late binding as in compile time it is set as it wont be change so in run time the java doesnt have to worry about which method to call 
+    // final void area(){ // early binding as in compile time it is set as it wont be change so in run time the java doesnt have to worry about which method to call 
     //     System.out.println("I am in shapes");
     // }
 

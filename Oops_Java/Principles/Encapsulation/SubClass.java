@@ -11,8 +11,8 @@ public class SubClass extends A {
 
         // A doesnt know i have a child so here we cannot access protected variable from
         // SubClass
-        A sb = new SubClass(0, null, 0);
-        System.out.println(sb.age);
+        // A sb = new SubClass(0, null, 0);
+        // System.out.println(sb.age);
 
         // to access it we need to use the Reference class and Object creation class
         // samw
