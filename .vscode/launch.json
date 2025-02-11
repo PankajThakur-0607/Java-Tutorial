@@ -6,6 +6,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MinCostClimbingStairs",
+      "request": "launch",
+      "mainClass": "EasyLevelProblems.MinCostClimbingStairs",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "_03_Enum",
+      "request": "launch",
+      "mainClass": "_03_Enum",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Cloning",
+      "request": "launch",
+      "mainClass": "Generics.Cloning",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "LambdaFunction",
+      "request": "launch",
+      "mainClass": "Generics.LambdaFunction",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Comparing",
+      "request": "launch",
+      "mainClass": "Generics.Comparing",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "CustomGenArrayList",
+      "request": "launch",
+      "mainClass": "Generics.CustomGenArrayList",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "CustomArrayList",
+      "request": "launch",
+      "mainClass": "Generics.CustomArrayList",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "B",
       "request": "launch",
       "mainClass": "Principles.Interfaces.ExtendedInterface.B",
