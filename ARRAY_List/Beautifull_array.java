@@ -2,7 +2,6 @@ package ARRAY_List;
 
 import java.util.ArrayList;
 
-import EXAMS.forEachLoop;
 
 public class Beautifull_array{
 

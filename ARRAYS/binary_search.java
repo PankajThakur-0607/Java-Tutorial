@@ -1,4 +1,3 @@
-package ARRAYS;
 
 public class binary_search {
     public static int binarySearch(int numbers[] , int key){

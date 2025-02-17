@@ -1,5 +1,3 @@
-package ARRAYS;
-
 public class pairs {
     
     public static void print_pairs(int numbers[] ){ // O(n^2)

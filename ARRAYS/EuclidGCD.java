@@ -1,4 +1,3 @@
-package ARRAYS;
 
 public class EuclidGCD {
     

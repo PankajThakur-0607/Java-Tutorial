@@ -3,8 +3,6 @@ package ARRAY_List;
 import java.util.*;
 import java.util.Collections;
 
-import ARRAYS.Array;
-
 public class practice_two {
 
     public static boolean monotonicArray(ArrayList<Integer> nums) {

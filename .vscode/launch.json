@@ -6,6 +6,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MaximizeTheCutStatement",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.MaximizeTheCutStatement",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Steps_ToMinimizeCount",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.Steps_ToMinimizeCount",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "LC_2466_CountWays_GoodString",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.LC_2466_CountWays_GoodString",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "FestivalTransport",
+      "request": "launch",
+      "mainClass": "FestivalTransport",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "LC_152_Maximum_Product_Subarr",
+      "request": "launch",
+      "mainClass": "LC_152_Maximum_Product_Subarr",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "LC_2140_QuestionWithBrainPower",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.LC_2140_QuestionWithBrainPower",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "HouseRobber_II",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.HouseRobber_II",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "HouseRobber",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.HouseRobber",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "MinCostClimbingStairs",
       "request": "launch",
       "mainClass": "EasyLevelProblems.MinCostClimbingStairs",

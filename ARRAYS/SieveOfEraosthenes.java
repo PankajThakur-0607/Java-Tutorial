@@ -1,7 +1,4 @@
-package ARRAYS;
-
 import java.util.Arrays;
-import java.util.*;;
 
 public class SieveOfEraosthenes {
 
@@ -43,24 +40,22 @@ public class SieveOfEraosthenes {
         return isPrime;
     }
 
-    
-
     public static void main(String[] args) {
-      boolean isPrime[] = seiveOfEratoSthenes_V1(20);
+        boolean isPrime[] = seiveOfEratoSthenes_V1(20);
 
-      for (int i = 0; i < isPrime.length; i++) {
+        for (int i = 0; i < isPrime.length; i++) {
             if (isPrime[i]) {
-            System.out.println(i + "  " );
+                System.out.println(i + "  ");
             }
-           
+
         }
         System.out.println();
 
-     boolean isPrime2[] = seiveOfEratoSthenes_V2(20);
-     for (int i = 0; i < isPrime2.length; i++) {
+        boolean isPrime2[] = seiveOfEratoSthenes_V2(20);
+        for (int i = 0; i < isPrime2.length; i++) {
             if (isPrime2[i]) {
                 System.out.println(i);
             }
-     }
+        }
     }
 }

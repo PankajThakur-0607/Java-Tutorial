@@ -1,9 +1,5 @@
-package ARRAYS;
 
 import java.util.Scanner;
-
-import Classes.inheritance;
-
 import java.util.*;
 
 public class Array_questions {

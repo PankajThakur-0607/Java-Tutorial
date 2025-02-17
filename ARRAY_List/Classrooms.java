@@ -1,9 +1,6 @@
 package ARRAY_List;
 
 import java.util.ArrayList;
-import java.util.Collections;
-
-import ARRAYS.Array;
 
 public class Classrooms {
 
@@ -15,99 +12,96 @@ public class Classrooms {
   }
 
   // public static int storeWater (ArrayList<Integer> height ){
-  //   int maxWater = 0 ;  // O(n ^2)
-  //   for(int i = 0 ; i < height.size() ; i++){
-  //     for(int j = i +1 ; j < height.size() ; j++){
-  //         int ht = Math.min(height.get(i) , height.get(j));
-  //         int wdth = j - i ;
-  //         int waterStore = ht * wdth;
-  //         maxWater = Math.max(maxWater, waterStore);
-  //     }
-  //   }
-  //   return maxWater;
+  // int maxWater = 0 ; // O(n ^2)
+  // for(int i = 0 ; i < height.size() ; i++){
+  // for(int j = i +1 ; j < height.size() ; j++){
+  // int ht = Math.min(height.get(i) , height.get(j));
+  // int wdth = j - i ;
+  // int waterStore = ht * wdth;
+  // maxWater = Math.max(maxWater, waterStore);
+  // }
+  // }
+  // return maxWater;
   // }
 
-      // 2 pointer approach 
-  public static int storeWater (ArrayList <Integer> height){
-      int maxWater = 0 ;
-      int lp = 0; 
-      int rp = height.size()-1 ;
+  // 2 pointer approach
+  public static int storeWater(ArrayList<Integer> height) {
+    int maxWater = 0;
+    int lp = 0;
+    int rp = height.size() - 1;
 
-      while (lp < rp) {
-          // calculate water area
-          int ht = Math.min(height.get(lp),height.get(rp));
-          int width = rp - lp;
-          int waterStored = ht * width;
-          maxWater = Math.max(maxWater, waterStored);
-          // update pointer 
-          if (height.get(lp) < height.get(rp)) {
-            lp++ ;
-          } else{
-            rp-- ;
-          }
-          
-          
+    while (lp < rp) {
+      // calculate water area
+      int ht = Math.min(height.get(lp), height.get(rp));
+      int width = rp - lp;
+      int waterStored = ht * width;
+      maxWater = Math.max(maxWater, waterStored);
+      // update pointer
+      if (height.get(lp) < height.get(rp)) {
+        lp++;
+      } else {
+        rp--;
       }
-      return maxWater;
+
+    }
+    return maxWater;
   }
 
+  public static boolean pairSum(ArrayList<Integer> list, int target) {
 
-  public static boolean pairSum(ArrayList<Integer> list  , int target){
-
-    for(int i = 0 ; i < list.size() ; i++){
-      for(int j = i+1 ; j < list.size() ; j++){
+    for (int i = 0; i < list.size(); i++) {
+      for (int j = i + 1; j < list.size(); j++) {
         if (list.get(i) + list.get(j) == target) {
-           return true ;
-        }
-      }
-    }
-    return false;
-  }
-
-
-  // 2 pointer approach 
-  public static boolean pairSum1 (ArrayList <Integer> list , int target){
-
-    int lp = 0 , rp = list.size()-1;
-    while (lp != rp) {
-       if (list.get(lp) + list.get(rp) == target) {
           return true;
-       }
-
-       if (list.get(lp) + list.get(rp) < target) {
-          lp++ ;
-       } else{
-        rp -- ;
-       }
+        }
+      }
     }
     return false;
   }
 
-  public static boolean pairSum2(ArrayList<Integer> list , int target){
-      int bp = -1 ;
-      for(int i =0 ; i < list.size() ; i++){
-        if (list.get(i) > list.get(i+1)) {
-           bp = i;
-           break;
-        }
-      }
-        int lp = bp +1 ;
-        int rp = bp ;
-        int n = list.size();
-      while (lp!= rp ) {
-        if (list.get(lp) + list.get(rp) == target) {
-            return true ;
-        }
-        if (list.get(lp) + list.get(rp) < target) {
-          lp = (lp+1) % n ;
-        } else{
-          rp = (n + rp -1) % n;
-        }
+  // 2 pointer approach
+  public static boolean pairSum1(ArrayList<Integer> list, int target) {
+
+    int lp = 0, rp = list.size() - 1;
+    while (lp != rp) {
+      if (list.get(lp) + list.get(rp) == target) {
+        return true;
       }
 
-      return false;
+      if (list.get(lp) + list.get(rp) < target) {
+        lp++;
+      } else {
+        rp--;
+      }
+    }
+    return false;
   }
-  
+
+  public static boolean pairSum2(ArrayList<Integer> list, int target) {
+    int bp = -1;
+    for (int i = 0; i < list.size(); i++) {
+      if (list.get(i) > list.get(i + 1)) {
+        bp = i;
+        break;
+      }
+    }
+    int lp = bp + 1;
+    int rp = bp;
+    int n = list.size();
+    while (lp != rp) {
+      if (list.get(lp) + list.get(rp) == target) {
+        return true;
+      }
+      if (list.get(lp) + list.get(rp) < target) {
+        lp = (lp + 1) % n;
+      } else {
+        rp = (n + rp - 1) % n;
+      }
+    }
+
+    return false;
+  }
+
   public static void main(String[] args) {
     // String | Boolean | Float | Integer
     // Classname objectName = new Classname();
@@ -222,8 +216,7 @@ public class Classrooms {
 
     // System.out.println(mainList);
 
-
-    // container with most water 
+    // container with most water
     ArrayList<Integer> height = new ArrayList<>();
     // 1,8,6,2,5,4,8,3,7
     height.add(1);
@@ -235,12 +228,12 @@ public class Classrooms {
     height.add(8);
     height.add(3);
     height.add(7);
-    
+
     // System.out.println(storeWater(height));
 
-    //     // pair Sum 
+    // // pair Sum
     // ArrayList <Integer> list = new ArrayList<>();
-    // // 1,2,3,,4,5,6 
+    // // 1,2,3,,4,5,6
     // list.add(1);
     // list.add(2);
     // list.add(3);
@@ -249,19 +242,17 @@ public class Classrooms {
     // list.add(6);
     // int target = 15;
     // System.out.print(pairSum1(list , target));
-    
 
-    ArrayList <Integer> list = new ArrayList<>();
-    // 11,15,6,8,9,10  - Soretd & rotated 
+    ArrayList<Integer> list = new ArrayList<>();
+    // 11,15,6,8,9,10 - Soretd & rotated
     list.add(11);
     list.add(15);
     list.add(6);
     list.add(8);
     list.add(9);
     list.add(10);
-    int target = 30; 
+    int target = 30;
     System.out.println(pairSum2(list, target));
-
 
   }
 }
