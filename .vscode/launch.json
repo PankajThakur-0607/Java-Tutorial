@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LC_983_MinimumCostForTickets",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.LC_983_MinimumCostForTickets",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "MaximizeTheCutStatement",
       "request": "launch",
       "mainClass": "MediumLevelProblems.MaximizeTheCutStatement",
