@@ -8,7 +8,7 @@ public class Main {
         // need to do 2 things
         // 1. access the data members
         // 2. modify the data members
-
+        // ArrayList<Integer> ans = new ArrayList<>() ;
         // System.out.println(obj.name);
         // System.out.println(obj.num);
         // obj.setNum(25);

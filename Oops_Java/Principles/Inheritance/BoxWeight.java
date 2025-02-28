@@ -9,6 +9,8 @@ public class BoxWeight extends Box {
     }
 
     // @Override
+
+    // static method cannot be overridden as it is not a part of object
     // static void greeting() {
     //     System.out.println("hey , I am in BoxWeight Class . Greeting!");
     // }
