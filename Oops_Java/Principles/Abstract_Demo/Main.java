@@ -16,5 +16,13 @@ public class Main {
         // mom.career(); // we cannot call the abstract method of abstract class
         Parent.hello(); // we can call the static method of abstract class
 
+        try {
+            Parent p = new Son(21);
+            p.career();
+            p.greeting();
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+
     }
 }

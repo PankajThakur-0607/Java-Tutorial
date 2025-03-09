@@ -24,6 +24,8 @@ public class LC_322_CoinsChange {
 
         int skipCoins = helper(coins, amount, n - 1);
 
+        System.out.println("Take: " + takeCoins + ", Skip: " + skipCoins);
+
         return Math.min(takeCoins, skipCoins);
     }
 
@@ -33,8 +35,8 @@ public class LC_322_CoinsChange {
     }
 
     public static void main(String[] args) {
-        int coins[] = { 1, 2, 5 };
-        int amount = 11;
+        int coins[] = { 3, 2, 5 };
+        int amount = 13;
 
         System.out.println(coinsChange(coins, amount));
     }
