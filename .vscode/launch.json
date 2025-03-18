@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LC_3259_Max_EnergyBoost",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.LC_3259_Max_EnergyBoost",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "LC_118_Pascal_Traingle",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.LC_118_Pascal_Traingle",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "PascalTriangle",
       "request": "launch",
       "mainClass": "PascalTriangle",

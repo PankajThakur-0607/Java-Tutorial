@@ -43,6 +43,7 @@ public class PascalTriangle {
             return ans;
         }
 
+        // O(N)
         public List<Long> getRowInTraingle_V2(int row) {
             List<Long> ans = new ArrayList<>();
             ans.add((long) 1);
@@ -75,6 +76,7 @@ public class PascalTriangle {
         public List<List<Long>> printCompleteTiangle_V2(int rows) {
             List<List<Long>> ans = new ArrayList<>();
 
+            // O(N * N)
             for (int i = 1; i <= rows; i++) {
                 ans.add(new ArrayList<>(getRowInTraingle_V2(i)));
             }
