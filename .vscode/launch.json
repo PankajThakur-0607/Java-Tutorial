@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "hellos",
+      "request": "launch",
+      "mainClass": "hellos",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "abcjs",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.abcjs",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Helo",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.Helo",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Practice",
+      "request": "launch",
+      "mainClass": "Practice",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "PathToReachOrigin",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.PathToReachOrigin",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Catalan_Number",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.Catalan_Number",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "LC_3259_Max_EnergyBoost",
       "request": "launch",
       "mainClass": "MediumLevelProblems.LC_3259_Max_EnergyBoost",

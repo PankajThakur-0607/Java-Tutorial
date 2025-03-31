@@ -16,6 +16,7 @@ public class productUsingRecursion {
             return 10 + product_rec(x , y - 1);
         }else return 0;
     }
+    
     public static void main(String[] args) {
         int x = 5 , y = 10;
         System.out.println(product(x, y));
