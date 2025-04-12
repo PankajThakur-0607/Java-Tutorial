@@ -1,4 +1,4 @@
-
+package MediumLevelProblems;
 class Dice_Combination {
     final static int MOD = 1000000007;
     public static int diceCombination(int n) {

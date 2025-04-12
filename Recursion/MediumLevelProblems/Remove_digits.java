@@ -1,3 +1,4 @@
+package MediumLevelProblems;
 public class Remove_digits {
 
     public static int removeDigits(int n) {

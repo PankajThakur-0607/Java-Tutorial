@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LC_3393_Count_Path_WithXOR",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.LC_3393_Count_Path_WithXOR",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "practice",
+      "request": "launch",
+      "mainClass": "practice",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "PracticeRecur",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.PracticeRecur",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "PracticePascalTriangle",
       "request": "launch",
       "mainClass": "PracticePascalTriangle",

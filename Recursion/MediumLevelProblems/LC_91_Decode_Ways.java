@@ -1,3 +1,6 @@
+
+package MediumLevelProblems;
+
 public class LC_91_Decode_Ways {
 
     public static int numDecodings(String s) {
