@@ -3,6 +3,8 @@ package MediumLevelProblems;
 public class LC_174_Dungean_Game {
 
 
+
+    // O(2^(M*N)) && O(M + N)
     public static int calculateMinimumHP(int[][] dungeon) {
         int m = dungeon.length ;
         int n = dungeon[0].length;
