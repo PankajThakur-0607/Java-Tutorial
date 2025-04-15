@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LC_174_Dungean_Game",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.LC_174_Dungean_Game",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "LC_64_MinimumPath",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.LC_64_MinimumPath",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Maze_With_N_Doors_And_1_Key",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.Maze_With_N_Doors_And_1_Key",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "LC_3393_Count_Path_WithXOR",
       "request": "launch",
       "mainClass": "MediumLevelProblems.LC_3393_Count_Path_WithXOR",
