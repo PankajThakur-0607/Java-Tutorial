@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LC_931_Minimum_falling_Pathsum",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.LC_931_Minimum_falling_Pathsum",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "Gold_Mine_Problem",
       "request": "launch",
       "mainClass": "MediumLevelProblems.Gold_Mine_Problem",
