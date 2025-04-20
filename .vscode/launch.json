@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Gold_Mine_Problem",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.Gold_Mine_Problem",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "LC_174_Dungean_Game",
       "request": "launch",
       "mainClass": "MediumLevelProblems.LC_174_Dungean_Game",
