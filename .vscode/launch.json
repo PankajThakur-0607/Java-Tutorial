@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LC_1269_No_Of_Ways_To_Stay_In_Same_Place",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.LC_1269_No_Of_Ways_To_Stay_In_Same_Place",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "LC_931_Minimum_falling_Pathsum",
       "request": "launch",
       "mainClass": "MediumLevelProblems.LC_931_Minimum_falling_Pathsum",
