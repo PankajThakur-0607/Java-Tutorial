@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LC_3286_Find_A_Safe_Walk_Through_A_Grid",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.LC_3286_Find_A_Safe_Walk_Through_A_Grid",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "LC_329_Longest_Increasing_Path_In_a_Matrix",
       "request": "launch",
       "mainClass": "MediumLevelProblems.LC_329_Longest_Increasing_Path_In_a_Matrix",
