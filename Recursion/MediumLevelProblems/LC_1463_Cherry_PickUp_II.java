@@ -5,6 +5,8 @@ public class LC_1463_Cherry_PickUp_II {
     static int N;
     static int directions[][] = { { 1, -1 }, { 1, 0 }, { 1, 1 } };
 
+
+    // O(9 ^ (M * N)) && O(M)
     public static int cherryPickup(int[][] grid) {
         M = grid.length;
         N = grid[0].length;
