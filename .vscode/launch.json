@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LC_416_Partition_Equal_Subset_Sum_V2",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.SubSequences.LC_416_Partition_Equal_Subset_Sum_V2",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Perfect_Sum_Problem",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.SubSequences.Perfect_Sum_Problem",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "LC_416_Partition_Equal_Subset_Sum",
       "request": "launch",
       "mainClass": "MediumLevelProblems.SubSequences.LC_416_Partition_Equal_Subset_Sum",

@@ -2,7 +2,7 @@ package MediumLevelProblems.SubSequences;
 
 import java.util.Arrays;
 
-public class LC_416_Partition_Equal_Subset_Sum {
+public class LC_416_Partition_Equal_Subset_Sum_V1 {
 
 
     // O(N + 2 ^(N)) && O(N) -- > O(2 ^ N) && O(N)
