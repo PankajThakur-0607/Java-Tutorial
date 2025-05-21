@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Partition_With_Given_Difference",
+      "request": "launch",
+      "mainClass": "MediumLevelProblems.SubSequences.Partition_With_Given_Difference",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "LC_416_Partition_Equal_Subset_Sum_V2",
       "request": "launch",
       "mainClass": "MediumLevelProblems.SubSequences.LC_416_Partition_Equal_Subset_Sum_V2",
